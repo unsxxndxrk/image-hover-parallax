@@ -10,17 +10,17 @@ body {
 }
 
 .item-wrapper {
-  height: 500px;
-  width: 400px;
+  height: 400px;
+  width: 300px;
   overflow: hidden;
   position: relative;
 }
 
 .item {
-  height: 600px;
-  width: 500px;
+  height: 500px;
+  width: 400px;
   position: absolute;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease-out;
   top: -50px;
   left: -50px;
   background: url("./images/1.png") no-repeat center top / cover;
